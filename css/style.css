@@ -1,15 +1,50 @@
-
-body div.header h1 {
-    font-family: Inconsolata, sans-serif;
+body div {
+    font-family: courier new, sans-serif;;
     font-style: normal;
-    font-weight: 400;
-    color: #000;
-    font-size: 10vw;
-    text-align: center;
 }
 
-body div.gif-holder {
-	width: 940px;
-	margin-left: auto;
-	margin-right: auto;
+
+body div.header h1 {
+    font-weight: 100;
+    color: #000;
+    font-size: 7vw;
+    text-align: center;
+    margin-top: 4vw;
+}
+
+.main .menu-holder {
+    width: 45vw;
+    margin: 8vw auto 0 auto;
+}
+
+.main .menu-holder h2 {
+    font-size: 2.5vw;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.cursor {
+    margin: 0 0 -10px -3vw;
+    height: 1em;
+    display: inline-block;
+    border-right: 0.5em solid;
+    color: #8A2BE2;
+    opacity: 0.2;
+}
+
+.cursor.blink {
+    -webkit-animation: cursor-blink .5s step-end infinite alternate;
+    animation: cursor-blink .5s step-end infinite alternate;
+}
+
+
+@-webkit-keyframes cursor-blink {
+    50% {
+        border-color:transparent
+    }
+}
+@keyframes cursor-blink {
+    50% {
+        border-color:transparent
+    }
 }
