@@ -28,8 +28,8 @@ body div.header h1 {
     height: 1em;
     display: inline-block;
     border-right: 0.5em solid;
-    color: #8A2BE2;
-    opacity: 0.2;
+    color: #4D4DFF;
+    opacity: 0.3;
 }
 
 .cursor.blink {
