@@ -67,7 +67,7 @@ h2 img.plus {
 }
 
 h3 img.plus {
-    width: 0.9vw;
+    width: 0.8vw;
 }
 
 div.projects.drawer p {
@@ -101,6 +101,11 @@ div.work.drawer ul li:before {
     writing-mode: vertical-lr;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    text-decoration-color: #6666FF;
 }
 
 
