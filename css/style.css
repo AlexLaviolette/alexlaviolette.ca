@@ -58,6 +58,14 @@ div.drawer {
     padding-left: 1vw;
 }
 
+ul.drawer {
+    display: none;
+}
+
+.drawer.default-open {
+    display: block;
+}
+
 span.pop {
     color: #6666FF;
 }
@@ -68,6 +76,10 @@ h2 img.plus {
 
 h3 img.plus {
     width: 0.8vw;
+}
+
+h4 img.plus {
+    width:  0.6vw;
 }
 
 div.projects.drawer p {
