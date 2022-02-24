@@ -16,12 +16,17 @@ function typeWriter() {
 $(document).ready(function() {
   typeWriter();
 
-  $('h2').click(function() {
+  $('.drawer-handle').click(function() {
     var drawer = $(this).next('.drawer');
     // Don't reopen drawer if it is already open
     if (drawer.css("display") === undefined || drawer.css("display") === 'none') {
-      $('.drawer').hide(200);
+      $(this).siblings('.drawer-handle').children('.plus').removeClass('rotate');
+      $(this).siblings('.drawer').hide();
+      $(this).find('.plus').addClass('rotate');
       drawer.show(200);
+    } else {
+      $(this).find('.plus').removeClass('rotate');
+      drawer.hide(200);
     }
   });
 });

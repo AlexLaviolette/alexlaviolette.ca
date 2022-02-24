@@ -20,6 +20,9 @@ body div.header h1 {
 .main .menu-holder h2 {
     font-size: 2.5vw;
     font-weight: 100;
+}
+
+.drawer-handle {
     cursor: pointer;
 }
 
@@ -49,12 +52,15 @@ span.pop {
     color: #6666FF;
 }
 
+img.plus {
+    width: 1.5vw;
+}
+
 div.projects.drawer p {
     padding-left: 1vw;
 }
 
 div.work.drawer div.roles {
-    padding-left: 1vw;
     margin-bottom: 45px;
 }
 
@@ -76,6 +82,13 @@ div.work.drawer ul li:before {
     margin-left: -1.3em;
     transform: translateX(-8px);
 }
+
+.rotate {
+    writing-mode: vertical-lr;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+}
+
 
 .cursor {
     margin: 0 0 -10px -3vw;
