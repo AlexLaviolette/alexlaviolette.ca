@@ -15,4 +15,13 @@ function typeWriter() {
 
 $(document).ready(function() {
   typeWriter();
+
+  $('h2').click(function() {
+    var drawer = $(this).next('.drawer');
+    // Don't reopen drawer if it is already open
+    if (drawer.css("display") === undefined || drawer.css("display") === 'none') {
+      $('.drawer').hide(200);
+      drawer.show(200);
+    }
+  });
 });

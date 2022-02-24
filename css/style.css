@@ -23,13 +23,20 @@ body div.header h1 {
     cursor: pointer;
 }
 
+div.drawer {
+    display: none;
+}
+
+span.pop {
+    color: #6666FF;
+}
+
 .cursor {
     margin: 0 0 -10px -3vw;
     height: 1em;
     display: inline-block;
     border-right: 0.5em solid;
-    color: #4D4DFF;
-    opacity: 0.3;
+    color: #CACAFF;
 }
 
 .cursor.blink {
