@@ -23,12 +23,30 @@ body div.header h1 {
     cursor: pointer;
 }
 
+h3 {
+    margin: 30px 0 5px 0;
+    font-weight: 100;
+}
+
+h3 a {
+    color: #000;
+}
+
+a {
+    color: #6666FF;
+}
+
 div.drawer {
     display: none;
+    padding-left: 1vw;
 }
 
 span.pop {
     color: #6666FF;
+}
+
+div.projects.drawer p {
+    padding-left: 1vw;
 }
 
 .cursor {
@@ -55,3 +73,15 @@ span.pop {
         border-color:transparent
     }
 }
+
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
