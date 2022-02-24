@@ -10,6 +10,7 @@ body div.header h1 {
     font-size: 7vw;
     text-align: center;
     margin-top: 4vw;
+    margin-left: -1em;
 }
 
 .main .menu-holder {
@@ -22,6 +23,13 @@ body div.header h1 {
     font-weight: 100;
     margin-bottom: 2vw;
     margin-top: 4vw;
+    max-width: 980px;
+}
+
+@media screen and (min-width: 1600px) {
+  body div.header h1 .name {
+     font-size: 6vw;
+  }
 }
 
 .drawer-handle {
