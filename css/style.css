@@ -3,8 +3,7 @@ body div {
     font-style: normal;
 }
 
-
-body div.header h1 {
+h1 {
     font-weight: 100;
     color: #000;
     font-size: 7vw;
@@ -13,30 +12,16 @@ body div.header h1 {
     margin-left: -1em;
 }
 
-.main .menu-holder {
-    width: 50vw;
-    margin: 8vw auto 0 auto;
-}
-
-.main .menu-holder h2 {
+h2 {
     font-size: 2.5vw;
     font-weight: 100;
-    margin-bottom: 2vw;
-    margin-top: 4vw;
     max-width: 980px;
+    margin:  4vw 0 2vw -2vw;
 }
 
-@media screen and (min-width: 1600px) {
-  body div.header h1 .name {
-     font-size: 6vw;
-  }
-}
-
-.drawer-handle {
-    cursor: pointer;
-}
 
 h3 {
+    font-size: 2vw;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 30px 0 5px 0;
@@ -44,7 +29,9 @@ h3 {
 }
 
 h4 {
+    font-size: 1.5vw;
     font-weight: 100;
+    padding-left: 1vw;
 }
 
 h3 a {
@@ -53,6 +40,16 @@ h3 a {
 
 a {
     color: #6666FF;
+}
+
+.main .menu-holder {
+    width: 58vw;
+    margin: 8vw auto 0 auto;
+}
+
+
+.drawer-handle {
+    cursor: pointer;
 }
 
 .drawer {
@@ -79,12 +76,172 @@ h2 img.plus {
 }
 
 h3 img.plus {
-    width: 0.8vw;
+    width: 1vw;
 }
 
 h4 img.plus {
-    width:  0.6vw;
+    width:  0.8vw;
 }
+
+/* Very Wide */
+@media screen and (min-width: 1600px) {
+    body div.header h1 .name {
+       font-size: 6vw;
+    }
+
+    body .main div.menu-holder {
+        width: 50vw !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    div.work.drawer ul {
+      padding-left: 3vw;
+    }
+
+    body .main div.menu-holder {
+        width: 55vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body .main div.menu-holder {
+        width: 61vw;
+    }
+
+    h2 {
+        font-size: 2.8vw;
+    }
+
+    h3 {
+        font-size: 2vw;
+    }
+
+    h4  {
+        font-size: 1.7vw;
+    }
+
+    h2 img.plus {
+      width: 1.5vw;
+    }
+
+    h3 img.plus {
+        width: 1vw;
+    }
+
+    h4 img.plus {
+        width:  0.9vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body .main div.menu-holder {
+        width: 65vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    h3 {
+        font-size: 3vw;
+    }
+
+    h4  {
+        font-size: 2.2vw;
+    }
+
+    h2 img.plus {
+      width: 2vw;
+    }
+
+    h3 img.plus {
+        width: 1.7vw;
+    }
+
+    h4 img.plus {
+        width:  1.4vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body .main div.menu-holder {
+        width: 68vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    h3 {
+        font-size: 3vw;
+    }
+
+    h4  {
+        font-size: 2.5vw;
+    }
+
+    h2 img.plus {
+      width: 2vw;
+    }
+
+    h3 img.plus {
+        width: 1.7vw;
+    }
+
+    h4 img.plus {
+        width:  1.4vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body .main div.menu-holder {
+        width: 80vw;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+
+    h3 {
+        font-size: 4.5vw;
+    }
+
+    h4  {
+        font-size: 3.4vw;
+    }
+
+    h2 img.plus {
+      width: 3.5vw;
+    }
+
+    h3 img.plus {
+        width: 3vw;
+    }
+
+    h4 img.plus {
+        width:  2.2vw;
+    }
+}
+
+
+/*@media (max-width: 800px) {
+    h2.drawer-handle {
+        color:  red;
+    }
+}*/
+    /*body h2 img.plus {
+        width: 1.5vw;
+    }
+
+    body h3 img.plus {
+        width: 1vw;
+    }
+
+    body h4 img.plus {
+        width:  0.8vw;
+    }
+}*/
 
 div.projects.drawer p {
     padding-left: 1vw;
