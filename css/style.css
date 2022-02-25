@@ -83,6 +83,14 @@ h4 img.plus {
     width:  0.8vw;
 }
 
+.cursor {
+    margin: 0 0 -1.2vw -3.3vw;
+    height: 8vw;
+    display: inline-block;
+    border-right: 4vw solid;
+    color: #CACAFF;
+}
+
 /* Very Wide */
 @media screen and (min-width: 1600px) {
     body div.header h1 .name {
@@ -95,6 +103,12 @@ h4 img.plus {
 
     body .main div.menu-holder {
         width: 50vw !important;
+    }
+
+    .cursor {
+        margin: 0 0 -0.9vw -3.3vw;
+        height: 7vw;
+        border-right: 3.5vw solid;
     }
 }
 
@@ -283,15 +297,6 @@ div.work.drawer ul li:before {
 .strikethrough {
     text-decoration: line-through;
     text-decoration-color: #6666FF;
-}
-
-
-.cursor {
-    margin: 0 0 -10px -3vw;
-    height: 1em;
-    display: inline-block;
-    border-right: 0.5em solid;
-    color: #CACAFF;
 }
 
 .cursor.blink {
