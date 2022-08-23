@@ -41,7 +41,7 @@ h1 {
 
 .hero .arrow {
   margin-left: 28%;
-  pading-top: 2vh;
+  padding-top: 2vh;
 }
 
 .hero h3 {
@@ -128,7 +128,7 @@ h1 {
 div.norm {
   background-image: url(../images/love-bg.webp);
   background-size: cover;
-  padding: 7vw;
+  padding: 6vh 16vw;
 }
 
 div.norm p {
