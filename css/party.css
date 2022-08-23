@@ -8,6 +8,10 @@ body {
   font-style: italic;
 }
 
+.logo-header {
+  margin-left: 5vw;
+}
+
 .logo-header img {
   height: 6%;
   padding: 2vw;
