@@ -22,6 +22,11 @@ h1 {
   font-weight: bolder;
 }
 
+.thx {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url(../images/pb.webp);
+  background-size: cover;
+}
+
 .thx h1 {
   padding: 5vw;
   margin: 0;
