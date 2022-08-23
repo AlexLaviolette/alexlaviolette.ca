@@ -50,7 +50,7 @@ h1 {
 }
 
 .hero .dp {
-  width: 25vw;
+  width: 28vw;
   float: right;
   margin-right: 12vw;
   margin-top: 18vw;
@@ -114,6 +114,10 @@ h1 {
 
 .favs li {
   padding-bottom: 4vh;
+}
+
+.favs p {
+  font-weight: bold;
 }
 
 div.norm {
