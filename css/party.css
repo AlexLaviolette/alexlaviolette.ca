@@ -207,3 +207,7 @@ h1 {
   letter-spacing: -6px;
   margin: 0;
 }
+
+audio {
+  display: none;
+}
