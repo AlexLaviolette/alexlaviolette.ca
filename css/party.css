@@ -60,7 +60,7 @@ h1 {
 .love {
   font-size: 5vw;
   text-align: center;
-  background-image: url(../images/love-bg.png);
+  background-image: url(../images/love-bg.webp);
   background-size: cover;
   color: white;
 }
@@ -91,7 +91,7 @@ h1 {
 
 .favs {
   text-align: center;
-  background-image: url(../images/favs-bg.png);
+  background-image: url(../images/favs-bg.webp);
   background-size: cover;
 }
 
@@ -121,7 +121,7 @@ h1 {
 }
 
 div.norm {
-  background-image: url(../images/love-bg.png);
+  background-image: url(../images/love-bg.webp);
   background-size: cover;
   padding: 7vw;
 }
