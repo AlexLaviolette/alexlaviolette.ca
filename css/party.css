@@ -1,3 +1,31 @@
+/*@-webkit-keyframes ic-flicker {
+  0% { content:url("../images/icecream.webp"); }
+  50% { content:url("../images/icecream.webp"); }
+  51% { content:url("../images/icecreamcookie.jpeg"); }
+  100% { content:url("../images/icecreamcookie.jpeg"); }
+}
+*/
+@-webkit-keyframes ic-flicker {
+  0% { content:url("../images/icecreamcookie.jpeg"); }
+  50% { content:url("../images/icecreamcookie.jpeg"); }
+  51% { content:url("../images/icecream.webp"); }
+  100% { content:url("../images/icecream.webp"); }
+}
+
+@-webkit-keyframes butt-flicker {
+  0% { content:url("../images/buttcookie.jpeg"); }
+  50% { content:url("../images/buttcookie.jpeg"); }
+  51% { content:url("../images/bikini.webp"); }
+  100% { content:url("../images/bikini.webp"); }
+}
+
+@-webkit-keyframes buzzz-flicker {
+  0% { content:url("../images/buzzzcookie.jpeg"); }
+  50% { content:url("../images/buzzzcookie.jpeg"); }
+  51% { content:url("../images/discgolf.webp"); }
+  100% { content:url("../images/discgolf.webp"); }
+}
+
 body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   margin: auto;
@@ -159,6 +187,18 @@ h1 {
   border-radius: 50%;
   width: 48vw;
   max-width: 700px;
+}
+
+.favs img.icecream {
+  -webkit-animation:ic-flicker 3s infinite;
+}
+
+.favs img.bikini {
+  -webkit-animation:butt-flicker 3s infinite;
+}
+
+.favs img.discgolf {
+  -webkit-animation:buzzz-flicker 3s infinite;
 }
 
 .favs img.tessa {
