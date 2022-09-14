@@ -6,24 +6,57 @@
 }
 */
 @-webkit-keyframes ic-flicker {
-  0% { content:url("../images/icecreamcookie.jpeg"); }
-  50% { content:url("../images/icecreamcookie.jpeg"); }
-  51% { content:url("../images/icecream.webp"); }
-  100% { content:url("../images/icecream.webp"); }
+  0% {
+    content: url("../images/icecreamcookie.jpeg");
+  }
+
+  50% {
+    content: url("../images/icecreamcookie.jpeg");
+  }
+
+  51% {
+    content: url("../images/icecream.webp");
+  }
+
+  100% {
+    content: url("../images/icecream.webp");
+  }
 }
 
 @-webkit-keyframes butt-flicker {
-  0% { content:url("../images/buttcookie.jpeg"); }
-  50% { content:url("../images/buttcookie.jpeg"); }
-  51% { content:url("../images/bikini.webp"); }
-  100% { content:url("../images/bikini.webp"); }
+  0% {
+    content: url("../images/buttcookie.jpeg");
+  }
+
+  50% {
+    content: url("../images/buttcookie.jpeg");
+  }
+
+  51% {
+    content: url("../images/bikini.webp");
+  }
+
+  100% {
+    content: url("../images/bikini.webp");
+  }
 }
 
 @-webkit-keyframes buzzz-flicker {
-  0% { content:url("../images/buzzzcookie.jpeg"); }
-  50% { content:url("../images/buzzzcookie.jpeg"); }
-  51% { content:url("../images/discgolf.webp"); }
-  100% { content:url("../images/discgolf.webp"); }
+  0% {
+    content: url("../images/buzzzcookie.jpeg");
+  }
+
+  50% {
+    content: url("../images/buzzzcookie.jpeg");
+  }
+
+  51% {
+    content: url("../images/discgolf.webp");
+  }
+
+  100% {
+    content: url("../images/discgolf.webp");
+  }
 }
 
 body {
@@ -59,26 +92,33 @@ h1 {
   h1 {
     font-size: 15vh;
   }
+
   div.hero h3 {
     line-height: normal;
     font-size: 5vh;
   }
+
   div.favs p {
     font-size: 4vh;
   }
+
   div.norm {
     padding: 6vh 5vw;
   }
+
   div.norm p {
     font-size: 5vh;
   }
+
   div.coming p {
     font-size: 7vh;
   }
+
   div.hero img.dp {
     max-width: 500px;
     margin-right: 12vh;
   }
+
   img.arrow {
     max-width: 90px;
   }
@@ -88,18 +128,23 @@ h1 {
   body {
     max-width: 1400px !important;
   }
+
   h1 {
     font-size: 10vh;
   }
+
   div.love p {
     font-size: 4vh;
   }
+
   div.hero {
     height: 125vh;
   }
+
   div.hero img.dp {
     margin-top: 15vh;
   }
+
   div.coming p {
     font-size: 10vh;
   }
@@ -190,15 +235,15 @@ h1 {
 }
 
 .favs img.icecream {
-  -webkit-animation:ic-flicker 3s infinite;
+  -webkit-animation: ic-flicker 3s infinite;
 }
 
 .favs img.bikini {
-  -webkit-animation:butt-flicker 3s infinite;
+  -webkit-animation: butt-flicker 3s infinite;
 }
 
 .favs img.discgolf {
-  -webkit-animation:buzzz-flicker 3s infinite;
+  -webkit-animation: buzzz-flicker 3s infinite;
 }
 
 .favs img.tessa {
@@ -243,13 +288,15 @@ h1 {
   padding: 5vw;
 }
 
-.coming p {
+.coming a {
   font-size: 13vw;
   line-height: 12vw;
   font-style: italic;
   font-weight: bold;
   letter-spacing: -6px;
   margin: 0;
+  text-decoration: none;
+  color: black;
 }
 
 audio {
