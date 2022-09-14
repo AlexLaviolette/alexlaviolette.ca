@@ -1,0 +1,37 @@
+body {
+  max-width: 1440px;
+  margin: auto;
+  background-image: linear-gradient(to bottom, rgb(228, 222, 242), rgba(255, 255, 255, 0)), url(../images/bloons.jpeg);
+  background-size: cover;
+}
+
+.logo-header {
+  margin-left: 5vw;
+}
+
+.logo-header img {
+  height: 6%;
+  padding: 2vw;
+}
+
+.gallery div {
+  max-width: 32%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.gallery div img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1550px) {
+  .gallery div {
+    max-width: 48%
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gallery div {
+    max-width: 100%
+  }
+}
